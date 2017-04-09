@@ -22,8 +22,8 @@
 
     <ImageView
         android:id="@+id/email_icon"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/tvTitle"
         android:background="@drawable/email"
@@ -41,15 +41,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email"
-            android:textSize="26sp"
+            android:textSize="20sp"
             android:id="@+id/etEmail"/>
 
     </android.support.design.widget.TextInputLayout>
 
     <ImageView
         android:id="@+id/ivLockIcon"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         android:layout_centerVertical="true"
         android:background="@drawable/lock"
         android:layout_marginTop="36dp"
@@ -70,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/Password"
-            android:textSize="26sp"
+            android:textSize="20sp"
             android:id="@+id/etPassword"
             android:inputType="textPassword" />
 
@@ -83,20 +83,29 @@
         android:layout_below="@id/tiPassword"
         android:layout_alignParentRight="true"
         android:layout_margin="16dp"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryLight"
         android:id="@+id/tvForgotPassword" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="46dp"
         android:text="@string/Login"
-        android:textSize="26sp"
-        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
         android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimary"
         android:background="@color/colorAccent"
-        android:id="@+id/btnLogin"/>
+        android:id="@+id/btnLogin" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CreateAccount"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tvCreateAccount"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_above="@id/btnLogin"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"/>
 
 
 </RelativeLayout>
