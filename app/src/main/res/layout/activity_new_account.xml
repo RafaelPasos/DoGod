@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prodevsmx.dogod.NewAccountActivity">
+
+    <TextView
+        android:id="@+id/tvJoinUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_us"
+        android:layout_marginTop="34dp"
+        android:textSize="45sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/ivEmail"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/tvJoinUs"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivEmail"
+        android:layout_toEndOf="@+id/ivEmail"
+        android:layout_toRightOf="@+id/ivEmail"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/ivPassword"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/ivEmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock"
+
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPassword"
+        android:layout_toEndOf="@+id/ivPassword"
+        android:layout_toRightOf="@+id/ivPassword"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/ivConfirmPassword"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/ivPassword"
+        android:layout_alignStart="@+id/ivPassword"
+        android:layout_below="@+id/ivPassword"
+        app:srcCompat="@android:drawable/ic_lock_lock"
+        android:layout_marginTop="20dp"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivConfirmPassword"
+        android:layout_alignLeft="@+id/tilPassword"
+        android:layout_alignStart="@+id/tilPassword"
+        android:layout_marginRight="20dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
