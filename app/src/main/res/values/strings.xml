@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">DoGod</string>
-    <string name="ste_men">Ste men</string>
-    <string name="haberquepedo">haber que pedo</string>
+    <string name="ForgotPassword"><u>Did you forget your password?</u></string>
+    <string name="Login">LOGIN</string>
+    <string name="Password">Password</string>
+    <string name="CreateAccount"><u>Create account</u></string>
+    <string name="email">E-mail</string>
 </resources>
