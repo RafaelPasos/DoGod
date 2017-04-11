@@ -1,17 +1,14 @@
 package com.prodevsmx.dogod;
 
-import android.graphics.Paint;
+import android.app.Activity;
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class NewAccountActivity extends AppCompatActivity {
+public class NewAccountActivity extends Activity {
 
     Typeface aliens;
     TextView JoinUs;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

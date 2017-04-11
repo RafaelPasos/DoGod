@@ -6,4 +6,7 @@
     <string name="Password">Password</string>
     <string name="CreateAccount"><u>Create account</u></string>
     <string name="email">E-mail</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="bePartOfUs">Be part of US</string>
+    <string name="register">Register</string>
 </resources>
