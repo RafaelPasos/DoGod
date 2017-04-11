@@ -12,6 +12,9 @@ public class LoginActivity extends Activity {
     Typeface aliens;
     TextView title;
 
+    Typeface aliens;
+    TextView JoinUs;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,5 +31,7 @@ public class LoginActivity extends Activity {
         title.setTypeface(aliens);
 
     }
+
+
 }
 
