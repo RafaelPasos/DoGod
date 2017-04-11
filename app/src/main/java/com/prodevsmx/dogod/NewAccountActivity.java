@@ -1,5 +1,6 @@
 package com.prodevsmx.dogod;
 
+import android.content.pm.ActivityInfo;
 import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +18,7 @@ public class NewAccountActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_account);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         aliens = Typeface.createFromAsset(getAssets(), "fonts/aliens.ttf");
         JoinUs.setTypeface(aliens);
