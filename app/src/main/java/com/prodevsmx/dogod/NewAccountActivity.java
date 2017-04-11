@@ -2,7 +2,6 @@ package com.prodevsmx.dogod;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
-import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.TextView;
