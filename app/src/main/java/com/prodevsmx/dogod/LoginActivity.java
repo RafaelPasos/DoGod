@@ -8,12 +8,8 @@ import android.view.Window;
 import android.widget.TextView;
 
 public class LoginActivity extends Activity {
-
-    Typeface aliens;
     TextView title;
-
     Typeface aliens;
-    TextView JoinUs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
