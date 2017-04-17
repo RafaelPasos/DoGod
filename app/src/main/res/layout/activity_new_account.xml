@@ -15,7 +15,8 @@
         android:layout_marginTop="34dp"
         android:textSize="45sp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"/>
 
     <ImageView
         android:id="@+id/ivEmail"
@@ -60,8 +61,7 @@
         android:layout_toEndOf="@+id/ivPassword"
         android:layout_toRightOf="@+id/ivPassword"
         android:layout_marginRight="20dp"
-        android:layout_marginLeft="10dp"
-        >
+        android:layout_marginLeft="10dp">
 
         <EditText
             android:layout_width="match_parent"
@@ -85,13 +85,13 @@
         android:layout_alignBottom="@+id/ivConfirmPassword"
         android:layout_alignLeft="@+id/tilPassword"
         android:layout_alignStart="@+id/tilPassword"
-        android:layout_marginRight="20dp"
-        >
+        android:layout_marginRight="20dp">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/confirmPassword" />
+
     </android.support.design.widget.TextInputLayout>
 
     <Button
@@ -116,6 +116,5 @@
         android:textColor="@color/colorTextSecondary"
         android:layout_centerHorizontal="true"
         android:text="@string/bePartOfUs" />
-
 
 </RelativeLayout>
