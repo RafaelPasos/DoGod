@@ -17,6 +17,7 @@ public class LoginActivity extends Activity {
     Typeface aliens;
 
     TextView createNewAccount;
+    TextView resetPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class LoginActivity extends Activity {
         //id declarations
         title = (TextView) findViewById(R.id.tvTitle);
         createNewAccount = (TextView) findViewById(R.id.tvCreateAccount);
+        resetPassword = (TextView) findViewById(R.id.tvForgotPassword);
 
         //fonts
         aliens = Typeface.createFromAsset(getAssets(), "fonts/aliens.ttf");
@@ -38,6 +40,15 @@ public class LoginActivity extends Activity {
             public void onClick(View v){
                 Intent createAccount = new Intent(LoginActivity.this, NewAccountActivity.class);
                 startActivity(createAccount);
+            }
+        });
+
+        //Go to reset password
+        resetPassword.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent restartPassword = new Intent(LoginActivity.this, resetPassword.class);
+                startActivity(restartPassword);
             }
         });
 

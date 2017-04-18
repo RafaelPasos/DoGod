@@ -9,4 +9,7 @@
     <string name="confirmPassword">Confirm password</string>
     <string name="bePartOfUs">Be part of US</string>
     <string name="register">Register</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="enterYourEmail">Enter your E-mail</string>
+    <string name="reset">RESET</string>
 </resources>
