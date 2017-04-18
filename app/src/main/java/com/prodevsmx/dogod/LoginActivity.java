@@ -7,6 +7,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -18,6 +19,7 @@ public class LoginActivity extends Activity {
 
     TextView createNewAccount;
     TextView resetPassword;
+    Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,7 @@ public class LoginActivity extends Activity {
         title = (TextView) findViewById(R.id.tvTitle);
         createNewAccount = (TextView) findViewById(R.id.tvCreateAccount);
         resetPassword = (TextView) findViewById(R.id.tvForgotPassword);
+        login = (Button) findViewById(R.id.btnLogin);
 
         //fonts
         aliens = Typeface.createFromAsset(getAssets(), "fonts/aliens.ttf");
@@ -42,6 +45,15 @@ public class LoginActivity extends Activity {
                 startActivity(createAccount);
             }
         });
+
+
+        login.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent goToMaps = new Intent(LoginActivity.this, SelectDestnationActivity.class);
+                startActivity(goToMaps);
+            }
+        });
+
 
         //Go to reset password
         resetPassword.setOnClickListener(new View.OnClickListener(){
