@@ -10,8 +10,6 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class LoginActivity extends Activity {
 
     TextView title;
@@ -46,10 +44,10 @@ public class LoginActivity extends Activity {
             }
         });
 
-
+        //Go to maps
         login.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent goToMaps = new Intent(LoginActivity.this, SelectDestnationActivity.class);
+                Intent goToMaps = new Intent(LoginActivity.this, SelectDestinationActivity.class);
                 startActivity(goToMaps);
             }
         });
@@ -59,7 +57,7 @@ public class LoginActivity extends Activity {
         resetPassword.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent restartPassword = new Intent(LoginActivity.this, resetPassword.class);
+                Intent restartPassword = new Intent(LoginActivity.this, ResetPasswordActivity.class);
                 startActivity(restartPassword);
             }
         });

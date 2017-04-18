@@ -8,7 +8,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 
-public class SelectDestnationActivity extends AppCompatActivity implements OnMapReadyCallback {
+public class SelectDestinationActivity extends AppCompatActivity implements OnMapReadyCallback {
 
 
     GoogleMap mapGoogleMap;
@@ -16,7 +16,7 @@ public class SelectDestnationActivity extends AppCompatActivity implements OnMap
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select_destnation);
+        setContentView(R.layout.activity_select_destination);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         startMap();

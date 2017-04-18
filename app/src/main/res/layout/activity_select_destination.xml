@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.prodevsmx.dogod.SelectDestnationActivity">
+    tools:context="com.prodevsmx.dogod.SelectDestinationActivity">
 
     <fragment
         android:id="@+id/mapFragment"
@@ -17,4 +17,5 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

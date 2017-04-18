@@ -31,11 +31,12 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".NewAccountActivity" />
-        <activity android:name=".SelectDestnationActivity"></activity>
-        <activity android:name=".resetPassword"></activity>
+        <activity android:name=".SelectDestinationActivity"></activity>
+        <activity android:name=".ResetPasswordActivity"></activity>
       
         <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDmslZrPblH6htKtVazKoeeea99PD6MSP8"></meta-data>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"></meta-data>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY_2" android:value="AIzaSyBFjmcuIRWtcD1tr5WMJRv98_-A_H6ELls"></meta-data>
       
     </application>
 

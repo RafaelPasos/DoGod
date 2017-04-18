@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
-public class resetPassword extends Activity {
+public class ResetPasswordActivity extends Activity {
 
     Typeface alien;
 
