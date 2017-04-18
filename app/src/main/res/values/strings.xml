@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">DoGod</string>
     <string name="join_us">Join Us</string>
-    <string name="ForgotPassword"><u>Did you forget your password?</u></string>
+    <string name="ForgotPassword"><u>Forgot your password?</u></string>
     <string name="Login">LOGIN</string>
     <string name="Password">Password</string>
     <string name="CreateAccount"><u>Create account</u></string>
     <string name="email">E-mail</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="bePartOfUs">Be part of US</string>
+    <string name="register">Register</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="enterYourEmail">Enter your E-mail</string>
+    <string name="reset">RESET</string>
 </resources>

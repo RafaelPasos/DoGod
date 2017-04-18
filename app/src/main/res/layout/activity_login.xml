@@ -35,7 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tvTitle"
         android:layout_toRightOf="@id/email_icon"
-        android:textColorHint="@color/colorPrimaryLight">
+        android:textColorHint="@color/colorPrimaryLight"
+        android:layout_marginRight="20dp">
 
         <EditText
             android:layout_width="match_parent"
@@ -64,7 +65,8 @@
         android:layout_below="@+id/tiEmail"
         android:layout_toRightOf="@id/ivLockIcon"
         android:layout_marginTop="35dp"
-        android:textColorHint="@color/colorPrimaryLight">
+        android:textColorHint="@color/colorPrimaryLight"
+        android:layout_marginRight="20dp">
 
         <EditText
             android:layout_width="match_parent"
@@ -79,12 +81,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/tvForgotPassword"
         android:text="@string/ForgotPassword"
         android:layout_below="@id/tiPassword"
         android:layout_alignParentRight="true"
         android:layout_margin="16dp"
-        android:textColor="@color/colorPrimaryLight"
-        android:id="@+id/tvForgotPassword" />
+        android:textColor="@color/colorPrimaryLight" />
 
     <Button
         android:layout_width="match_parent"
