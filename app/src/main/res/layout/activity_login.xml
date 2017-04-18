@@ -18,7 +18,7 @@
         android:layout_marginTop="26sp"
         android:layout_marginBottom="56sp"
         android:id="@+id/tvTitle"
-        android:textColor="@color/colorPrimary"/>
+        android:textColor="@color/colorTextPrimary"/>
 
     <ImageView
         android:id="@+id/email_icon"
@@ -31,11 +31,12 @@
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/tiEmail"
+        style="@style/tilColorChange"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvTitle"
         android:layout_toRightOf="@id/email_icon"
-        android:textColorHint="@color/colorPrimaryLight"
+        android:textColorHint="@color/colorTextSecondary"
         android:layout_marginRight="20dp">
 
         <EditText
@@ -60,12 +61,13 @@
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/tiPassword"
+        style="@style/tilColorChange"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tiEmail"
         android:layout_toRightOf="@id/ivLockIcon"
         android:layout_marginTop="35dp"
-        android:textColorHint="@color/colorPrimaryLight"
+        android:textColorHint="@color/colorTextSecondary"
         android:layout_marginRight="20dp">
 
         <EditText
@@ -86,7 +88,7 @@
         android:layout_below="@id/tiPassword"
         android:layout_alignParentRight="true"
         android:layout_margin="16dp"
-        android:textColor="@color/colorPrimaryLight" />
+        android:textColor="@color/colorTextSecondary" />
 
     <Button
         android:layout_width="match_parent"
@@ -95,7 +97,7 @@
         android:textSize="20sp"
         android:layout_alignParentBottom="true"
         android:textColor="@color/colorTextPrimary"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimary"
         android:id="@+id/btnLogin" />
 
     <TextView
@@ -104,7 +106,7 @@
         android:text="@string/CreateAccount"
         android:layout_alignParentRight="true"
         android:id="@+id/tvCreateAccount"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorTextSecondary"
         android:layout_above="@id/btnLogin"
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"/>

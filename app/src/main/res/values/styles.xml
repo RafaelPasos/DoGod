@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="tilColorChange">
+        <item name="colorAccent">@color/colorTextSecondary</item>
+
+    </style>
+
 </resources>
