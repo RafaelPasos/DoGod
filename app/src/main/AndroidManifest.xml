@@ -2,16 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.prodevsmx.dogod">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-    <permission android:name="com.prodevsmx.dogod.permission.MAPS_RECIEVE" android:protectionLevel="signature"></permission>
-    <uses-permission android:name="com.prodevsmx.dogod.permission.MAPS_RECIEVE"></uses-permission>
-    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <uses-feature android:glEsVersion="0x00020000" android:required="true"></uses-feature>
+    <permission
+        android:name="com.prodevsmx.dogod.permission.MAPS_RECIEVE"
+        android:protectionLevel="signature" />
 
+    <uses-permission android:name="com.prodevsmx.dogod.permission.MAPS_RECIEVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -31,13 +36,20 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".NewAccountActivity" />
-        <activity android:name=".SelectDestinationActivity"></activity>
-        <activity android:name=".ResetPasswordActivity"></activity>
+        <activity android:name=".SelectDestinationActivity" />
+        <activity android:name=".ResetPasswordActivity" />
 
-        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDmslZrPblH6htKtVazKoeeea99PD6MSP8"></meta-data>
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"></meta-data>
-        <meta-data android:name="com.google.android.maps.v2.API_KEY_2" android:value="AIzaSyBFjmcuIRWtcD1tr5WMJRv98_-A_H6ELls"></meta-data>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDmslZrPblH6htKtVazKoeeea99PD6MSP8" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY_2"
+            android:value="AIzaSyBFjmcuIRWtcD1tr5WMJRv98_-A_H6ELls" />
 
+        <activity android:name=".LandingActivity"></activity>
     </application>
 
 </manifest>
