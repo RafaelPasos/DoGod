@@ -23,8 +23,9 @@ public class LandingActivity extends AppCompatActivity {
         navToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(navToolbar);
 
+
         navigationDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
-        drawerToggle = new ActionBarDrawerToggle(this, navigationDrawerLayout, R.string.open, R.string.close);
+        drawerToggle = new ActionBarDrawerToggle(this, navigationDrawerLayout, navToolbar, R.string.open, R.string.close);
 
         navigationDrawerLayout.addDrawerListener(drawerToggle);
         drawerToggle.syncState();

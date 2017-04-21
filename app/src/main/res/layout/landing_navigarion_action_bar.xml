@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/landing_action_bar"
     android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:elevation="3dp">
 
 
