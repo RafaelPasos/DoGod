@@ -47,7 +47,7 @@ public class LoginActivity extends Activity {
         //Go to maps
         login.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent goToLanding = new Intent(LoginActivity.this, LandingActivity.class);
+                Intent goToLanding = new Intent(LoginActivity.this, LandActivity.class);
                 startActivity(goToLanding);
             }
         });

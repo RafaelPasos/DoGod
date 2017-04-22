@@ -49,7 +49,10 @@
             android:name="com.google.android.maps.v2.API_KEY_2"
             android:value="AIzaSyBFjmcuIRWtcD1tr5WMJRv98_-A_H6ELls" />
 
-        <activity android:name=".LandingActivity"></activity>
+        <activity
+            android:name=".LandActivity"
+            android:label="@string/title_activity_land"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
